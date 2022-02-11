@@ -1,5 +1,12 @@
 {
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o build.css --minify"
+  },
   "devDependencies": {
     "tailwindcss": "^3.0.17"
+  },
+  "dependencies": {
+    "r": "^0.0.5"
   }
 }
