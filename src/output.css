@@ -1158,6 +1158,10 @@ Ensure the default browser behavior of the `hidden` attribute.
     height: auto;
   }
 
+  .sm\:h-\[50vh\] {
+    height: 50vh;
+  }
+
   .sm\:w-4\/12 {
     width: 33.333333%;
   }
@@ -1220,5 +1224,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .lg\:inline-block {
     display: inline-block;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:h-auto {
+    height: auto;
   }
 }
