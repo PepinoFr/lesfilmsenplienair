@@ -641,6 +641,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1.5rem;
 }
 
+.h-\[100vh\] {
+  height: 100vh;
+}
+
+.h-\[50vh\] {
+  height: 50vh;
+}
+
 .w-full {
   width: 100%;
 }
@@ -1146,6 +1154,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @media (min-width: 640px) {
+  .sm\:h-auto {
+    height: auto;
+  }
+
   .sm\:w-4\/12 {
     width: 33.333333%;
   }
@@ -1162,6 +1174,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:h-auto {
     height: auto;
+  }
+
+  .md\:h-\[50vh\] {
+    height: 50vh;
   }
 
   .md\:w-1\/2 {
